@@ -4,6 +4,10 @@ h1 {
     text-align: center;
     color: black;
 }
+h2 {
+   background: url(./underconstruction.png) no-repeat center center;
+   height: 50%;
+}
 
 .s1 {
     background-color: rgb(0, 230, 230);
