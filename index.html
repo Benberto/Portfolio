@@ -1,12 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hello World!</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello World!</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.css"
+    />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div id="fullPage">
+      <div class="section s1">
+        <h1>Welcome to my Portfolio!</h1>
+      </div>
+      <div class="section s2">
+        
+        <div class="slide s2">
+          
+          <h1>About Me</h1>
+          
+        </div>
+        <div class="slide s2">
+
+          <h1>Skills</h1>
+          
+        </div>
+        <div class="slide s2">
+
+          <h1>Projects</h1>
+          
+        </div>
+
+      </div>
+      <div class="section s3">
+        <h1>Contact Me</h1>
+
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"></script>
+
+    <script>
+      new fullpage("#fullPage", {
+        autoScrolling: true,
+        navigation: true,
+        anchors: ['section1', 'section2', 'section3'],
+        navigationTooltips: ['Home', 'About Me', 'Contact'],
+        // showActiveTooltip: true,
+        scrollingSpeed: 1500,
+        controlArrows: true,
+        
+      });
+    </script>
+  </body>
 </html>
