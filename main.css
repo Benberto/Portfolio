@@ -2,7 +2,7 @@ h1 {
     font-family: 'Montserrat';
     font-size: 96px;
     text-align: center;
-    color: black;
+    color: white;
 }
 h2 {
    background: url(./underconstruction.png) no-repeat center center;
@@ -10,17 +10,17 @@ h2 {
 }
 
 .s1 {
-    background-color: rgb(0, 230, 230);
+    background-color: #46494C;
     background-size: cover;
 }
 
 .s2 {
-    background-color: rgb(0, 202, 202);
+    background-color: #5CA4A9;
     background-size: cover;
 }
 
 .s3 {
-    background-color: rgb(0, 160, 160);
+    background-color: #46494C;
     background-size: cover;
 }
 
